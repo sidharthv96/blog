@@ -43,17 +43,18 @@ enableEmoji = true
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/"
-
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
-
+  
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/sidharthv96/"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/sidharth-vinod/"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url = "https://stackoverflow.com/users/2212355/sidharth-v"
 
 [menu]
 
