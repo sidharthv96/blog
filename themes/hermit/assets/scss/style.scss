@@ -149,6 +149,10 @@ table {
   font-size: .7em;
 }
 
+.accent {
+  color: #F80000;
+}
+
 .desktop-only, .desktop-only-ib {
   display: none;
 }
@@ -261,7 +265,7 @@ table {
     }
 
     a {
-      margin-left: .8em;
+      margin: .4em;
     }
   }
 }

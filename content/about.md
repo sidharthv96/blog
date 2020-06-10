@@ -49,7 +49,7 @@ I'm an avid open source advocate and have contributed to multiple projects.
 | [Caprover](https://github.com/caprover/caprover/pulls?q=is%3Apr+author%3Asidharthv96)  | ![GitHub stars](https://img.shields.io/github/stars/caprover/caprover?style=social&label) | Automated Scalable PaaS Package - Heroku on Steroids                   |
 | [Manta](https://github.com/hql287/Manta/pulls?q=is%3Apr+author%3Asidharthv96)          | ![GitHub stars](https://img.shields.io/github/stars/hql287/Manta?style=social&label)      | Flexible invoicing desktop app with beautiful & customizable templates |
 
-# Technologies
+# Tech
 
 - Languages : Java, TypeScript/JavaScript, Python
 - Backend : Spring, Express
@@ -60,7 +60,8 @@ I'm an avid open source advocate and have contributed to multiple projects.
 
 # Education
 
-Bachelor of Technology, Computer Science and Engineering (2014-2018) | [Government Engineering College, Thrissur](http://gectcr.ac.in/)
+[Government Engineering College, Thrissur](http://gectcr.ac.in/) (2014-2018)
+  - Bachelor of Technology, Computer Science and Engineering
 
 # Projects
 

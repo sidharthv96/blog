@@ -1,8 +1,8 @@
 // Colors
 //
-$theme: #018574;
+$theme: #ec3535;
 $text: #e8eef2;
-$light-grey: #494f5c;
+$light-grey: #191919;
 $dark-grey: #3B3E48;
 $highlight-grey: #7d828a;
 $midnightblue: #2c3e50;
@@ -22,7 +22,7 @@ $code-fonts: Consolas, "Andale Mono WT", "Andale Mono", Menlo, Monaco, "Lucida C
   a {
     word-wrap: break-word;
     border: none;
-    box-shadow: inset 0 -4px 0 $theme;
+    box-shadow: inset 0 -2px 0 $theme;
     transition-property: box-shadow;
     transition-duration: .1s;
 
