@@ -2,6 +2,7 @@
 title = "Resume"
 date = "2020-04-09"
 +++
+To get in touch, drop a mail to hi@sidharth.dev
 
 # Professional Experience
 
