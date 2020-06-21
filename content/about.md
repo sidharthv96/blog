@@ -58,6 +58,7 @@ I'm an avid open source advocate and have contributed to multiple projects.
 - Testing : JUnit, Jest, K6
 - Services : Kafka, PostgreSQL, Vault, Swagger
 - Infrastructure : Docker, Kubernetes, Jenkins, Helm, Gitlab CI, OCI, AWS
+- IoT : ESP32, Arduino, RC522 RFID
 
 # Education
 
