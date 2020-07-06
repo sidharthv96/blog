@@ -32,8 +32,9 @@ googleAnalytics = "UA-169182193-1"
   [params.utterances]
     repo = "sidharthv96/blog"
     theme = "github-dark"
-    issueTerm = "pathname"
-    
+    issueTerm = "title"
+    label="comments 💬"
+
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = "https://github.com/username/repository/commit/"
 
