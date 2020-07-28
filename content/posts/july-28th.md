@@ -8,7 +8,7 @@ tags:
   - life
 ---
 
-{{< figure src="/images/july28.jpg" title="#" width=350 >}}
+{{< figure src="/images/july28.jpg" title="#" width="350" >}}
 
 Some days are like that, full of fun, laughter, food and celebrations. But you never know what's around the corner.
 
