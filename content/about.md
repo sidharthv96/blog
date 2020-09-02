@@ -6,7 +6,7 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 # Professional Experience
 
-## Oracle (June '18 - Present)
+## Oracle | Senior Applications Engineer (June '18 - Present) 
 
 #### Helios-Webhooks (January '19 - Present)
 
