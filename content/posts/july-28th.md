@@ -28,6 +28,6 @@ After calling out that first token, About a month back from that celebration day
 Apart from the Caterpillar that crawled under our legs whom I had to gently take out, acting all cool, and the quirky Identification mark she told, that interaction went as well as a data entry could go. I wasn't sure if I should text her, or even if I did, what to tell her. A little encouragemet from my friends lead to me texting her an apology for making her wait that long. A confused reply and few awkward texts later, it ended. I could have texted her again, but I wasn't "that guy" to bother her with cringey texts. We just got busy with our life.
 
 "Objects in the mirror are closer than they appear", read my side mirror, after that glimpse that day, that fucking glimpse.
-"What is a First year junior doing in the Men's hostel along with her Mom?", Now that's a golden conversation started isn't it ?!
+"What is a First year junior doing in the Men's hostel along with her Mom?", Now that's a golden conversation starter isn't it ?!
 
 And thus, on July 28th 2017 started an important chapter of my life.
