@@ -2,11 +2,12 @@
 title = "Resume"
 date = "2020-04-09"
 +++
+
 To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 # Professional Experience
 
-## Oracle | Senior Applications Engineer (June '18 - Present) 
+## Oracle | Senior Applications Engineer (June '18 - Present)
 
 #### Helios-Webhooks (January '19 - Present)
 
@@ -42,13 +43,14 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 I'm an avid open source advocate and have contributed to multiple projects.
 
-| Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                | Stars&nbsp;&nbsp;&nbsp;&nbsp;                                                             | Description                                                            |
-| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [Prettier](https://github.com/prettier/prettier/pulls?q=is%3Apr+author%3Asidharthv96+) | ![GitHub stars](https://img.shields.io/github/stars/prettier/prettier?style=social&label) | An opinionated code formatter                                          |
-| [Deno](https://github.com/denoland/deno/pulls?q=is%3Apr+author%3Asidharthv96+)         | ![GitHub stars](https://img.shields.io/github/stars/denoland/deno?style=social&label)     | A secure JavaScript and TypeScript runtime                             |
-| [Strapi](https://github.com/strapi/strapi/pulls?q=is%3Apr+author%3Asidharthv96)        | ![GitHub stars](https://img.shields.io/github/stars/strapi/strapi?style=social&label)     | Node.js Headless CMS to easily build customisable APIs                 |
-| [Caprover](https://github.com/caprover/caprover/pulls?q=is%3Apr+author%3Asidharthv96)  | ![GitHub stars](https://img.shields.io/github/stars/caprover/caprover?style=social&label) | Automated Scalable PaaS Package - Heroku on Steroids                   |
-| [Manta](https://github.com/hql287/Manta/pulls?q=is%3Apr+author%3Asidharthv96)          | ![GitHub stars](https://img.shields.io/github/stars/hql287/Manta?style=social&label)      | Flexible invoicing desktop app with beautiful & customizable templates |
+| Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                     | Stars&nbsp;&nbsp;&nbsp;&nbsp;                                                                | Description                                                                      |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| [Prettier](https://github.com/prettier/prettier/pulls?q=is%3Apr+author%3Asidharthv96+)      | ![GitHub stars](https://img.shields.io/github/stars/prettier/prettier?style=social&label)    | An opinionated code formatter                                                    |
+| [Typescript](https://github.com/microsoft/TypeScript/pulls?q=is%3Apr+author%3Asidharthv96+) | ![GitHub stars](https://img.shields.io/github/stars/microsoft/TypeScript?style=social&label) | TypeScript is a superset of JavaScript that compiles to clean JavaScript output. |
+| [Deno](https://github.com/denoland/deno/pulls?q=is%3Apr+author%3Asidharthv96+)              | ![GitHub stars](https://img.shields.io/github/stars/denoland/deno?style=social&label)        | A secure JavaScript and TypeScript runtime                                       |
+| [Caprover](https://github.com/caprover/caprover/pulls?q=is%3Apr+author%3Asidharthv96)       | ![GitHub stars](https://img.shields.io/github/stars/caprover/caprover?style=social&label)    | Automated Scalable PaaS Package - Heroku on Steroids                             |
+| [Strapi](https://github.com/strapi/strapi/pulls?q=is%3Apr+author%3Asidharthv96)             | ![GitHub stars](https://img.shields.io/github/stars/strapi/strapi?style=social&label)        | Node.js Headless CMS to easily build customisable APIs                           |
+| [Manta](https://github.com/hql287/Manta/pulls?q=is%3Apr+author%3Asidharthv96)               | ![GitHub stars](https://img.shields.io/github/stars/hql287/Manta?style=social&label)         | Flexible invoicing desktop app with beautiful & customizable templates           |
 
 # Tech
 
@@ -63,7 +65,8 @@ I'm an avid open source advocate and have contributed to multiple projects.
 # Education
 
 [Government Engineering College, Thrissur](http://gectcr.ac.in/) (2014-2018)
-  - Bachelor of Technology, Computer Science and Engineering
+
+- Bachelor of Technology, Computer Science and Engineering
 
 # Projects
 
