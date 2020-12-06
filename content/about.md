@@ -47,7 +47,7 @@ I'm an avid open source advocate and have contributed in a small capacity to mul
 | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | [Prettier](https://github.com/prettier/prettier/pulls?q=is%3Apr+author%3Asidharthv96+)      | ![GitHub stars](https://img.shields.io/github/stars/prettier/prettier?style=social&label)    | An opinionated code formatter                                                    |
 | [Typescript](https://github.com/microsoft/TypeScript/pulls?q=is%3Apr+author%3Asidharthv96+) | ![GitHub stars](https://img.shields.io/github/stars/microsoft/TypeScript?style=social&label) | TypeScript is a superset of JavaScript that compiles to clean JavaScript output. |
-| [Homebrew \| Brew.sh](https://github.com/microsoft/TypeScript/pulls?q=is%3Apr+author%3Asidharthv96+) | ![GitHub stars](https://img.shields.io/github/stars/microsoft/TypeScript?style=social&label) | TypeScript is a superset of JavaScript that compiles to clean JavaScript output. |
+| [Homebrew \| Brew.sh](https://github.com/Homebrew/brew.sh/pulls?q=is%3Apr+author%3Asidharthv96+) | ![GitHub stars](https://img.shields.io/github/stars/https://github.com/Homebrew/brew.sh?style=social&label) | The Homebrew homepage |
 | [Caprover](https://github.com/caprover/caprover/pulls?q=is%3Apr+author%3Asidharthv96)       | ![GitHub stars](https://img.shields.io/github/stars/caprover/caprover?style=social&label)    | Automated Scalable PaaS Package - Heroku on Steroids                             |
 
 
