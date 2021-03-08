@@ -7,7 +7,9 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 # Professional Experience
 
-## Oracle | Senior Applications Engineer (June '18 - Present)
+## TurgenSec | CTO (March '20 - Present)
+
+## Oracle | Senior Applications Engineer (June '18 - March '20)
 
 #### Helios-Webhooks (January '19 - Present)
 
