@@ -9,6 +9,11 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 ## TurgenSec | CTO (March '21 - Present)
 
+### DataShadow
+
+- Building out an Offensive Privacy platform.
+
+
 ## Oracle | Senior Applications Engineer (June '18 - March '21)
 
 #### Helios-Webhooks (January '19 - March '21)
