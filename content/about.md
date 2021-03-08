@@ -11,7 +11,7 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 ## Oracle | Senior Applications Engineer (June '18 - March '21)
 
-#### Helios-Webhooks (January '19 - Present)
+#### Helios-Webhooks (January '19 - March '21)
 
 - Lead developer of the service which facilitates to Integrate Webhooks functionality to any internal product with [CloudEvent](https://cloudevents.io/) spec
   - **Microservices** (Java & Node.js on Kubernetes), Kafka, Vault, CI/CD (Gitlab, Jenkins & Helm)
@@ -19,13 +19,13 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
   - At least once delivery, Automatic Retries with exponential back off
   - Endpoint blacklisting, Dead letter requeuing and Message expiry
 
-#### Helios-Extensions (March '20 - Present)
+#### Helios-Extensions (March '20 - March '21)
 
 - Allows customers to write custom code to act on system events using Webhooks and **Serverless** Platform (Oracle Fn)
 - Designed the **mutli tenancy architecture** which allows managing and running customer functions securely
 - Created a **federated Docker registry proxy** service which allows customers to push containers with 0-config while managing access control and tenant data segregation.
 
-#### Helios-Vision (September '19 - Present)
+#### Helios-Vision (September '19 - March '21)
 
 - Created a Typescript library to provide core functionality required to build a Microservice with Node.js
   - Kafka - Avro schemas | Transparent message encryption with Vault
