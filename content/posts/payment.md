@@ -47,7 +47,7 @@ It is a certificate which states the Incoming Currency, Conversion Rate, Reason 
 
 It is issued by the Banks which process the conversion to INR.
 
-Getting it can be tricky when using services like Payoneer, Wise, etc.
+Getting it can be tricky when using services like Payoneer, Wise, etc. But the workaround is explained at the end.
 
 ## GST and LUT
 
@@ -67,7 +67,7 @@ Once your income crosses 50L, you need to get all the books audited by your CA.
 If your income is Less than 50L, there is a Section 44ADA to save tax on 50% of the amount.
 
 Check out this [ Comprehensive Guide on Tax for Freelancers
-](https://www.thegalacticadvisors.com/post/comprehensive-guide-on-tax-for-freelancers), written by people who know this much better that I do.
+](https://www.thegalacticadvisors.com/post/comprehensive-guide-on-tax-for-freelancers), written by people who know this much better than I do.
 
 ## TDS
 
@@ -129,7 +129,7 @@ They used to issue e-FIRCs automatically, but some people are reporting issues w
 
 If you have an EEFC account, the customer care can link it and you can get the Foreign Currency directly into your account. So the FIRC issue won't be applicable.
 
-Their customer support is also reported as sub par, and the website is also not that great.
+Their customer support is reported as sub par, and the website is also not that great.
 
 ### Wise.com (Formerly TrasferWise)
 

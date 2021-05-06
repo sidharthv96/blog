@@ -10,13 +10,13 @@ tags:
   - insurance
 ---
 
-A full time job takes care of a lot of things for us. Health insurance, tax payments,
+A full time job takes care of a lot of things for us. Health insurance, tax payments, security, etc.
 
 The pandemic has transformed the remote work demographics in a way even the Internet couldn't. After working for almost 3 Years in Oracle as a Full time employee, 2 years in office and 1 locked down at home, I decided to take a different path in my Career.
 
-Working at Oracle, one thing was certain, I'll get the salary credit SMS on the last day of every month. The team was amazing, we built a product from scratch, the pay was OK as per Indian standards. When the oppurtunity to work remotely for TurgenSec in London showed up initially, I pushed it out. I didn't want to abandon my team and my project mid way, it felt like my baby. After a year, the baby had grew up, and it felt like I could safely step away. So when Peter persuaded me the second time, I took the leap.
+Working at Oracle, one thing was certain, I'll get the salary credit SMS on the last day of every month. The team was amazing, we built a product from scratch, the pay was OK as per Indian standards. So when the oppurtunity to work remotely for TurgenSec in London showed up initially, I pushed it out. I didn't want to abandon my team and my project mid way, it felt like my baby. After a year, the baby had grew up, and it felt like I could safely step away. So when Peter persuaded me the second time, I took the leap.
 
-Quitting Oracle was not an easy decision Emotionally, but the belief that the personal bonds I had developed with the people over there would trancend employers helped me.
+Quitting Oracle was not an easy decision Emotionally, but the belief that the personal bonds I had developed with the people over there would transcend employers made it a little easier.
 
 Financially, quitting a steady job for a startup is always a risk, but I had the stomach for this one. So these are the things to look out for when working as a Contractor.
 
