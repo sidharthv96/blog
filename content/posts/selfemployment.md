@@ -33,10 +33,6 @@ Choosing the right company which doesn't discriminate based on where you live is
 
 ## Less Taxes
 
-> In this world nothing can be said to be certain, except death and taxes.
->
-> - Benjamin Franklin
-
 As a Full time employee, the company cuts the taxes before they pay the salary.
 But when self employed, we have pre-tax money to spend.
 

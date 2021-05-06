@@ -21,7 +21,7 @@ There are multiple ways to get money into India and each has it's own issues. Th
 - Current account in Axis Bank
 - Transfer fund as USD using Wise.com (Do NOT use INR transfer as getting FIRC is close to impossible)
 - Zoho Invoice for Book keeping and GST
-- A good Chartred Accountant for all queries
+- A good Chartered Accountant for all queries
 
 # The easy way!
 
@@ -29,30 +29,45 @@ Get a good CA who has experience in this area.
 
 Having a good CA makes our lives much easier and stress free. They'll also advise us on tax planning to boost our savings.
 
-I had to go trough 3 CAs before I finally connected with [Prasad Bhutada](mailto:prasad.bhutada@bnbca.in), another RemoteIndian member. He has in depth knowledge in all the required areas and is extremely helpful with any queries that I have.
+I had to go through 3 CAs before I finally connected with [Prasad Bhutada](mailto:prasad.bhutada@bnbca.in), another RemoteIndian member. He has in depth knowledge in all the required areas and is extremely helpful with any queries that I have.
 
 # Things the government wants, and how do we get them
 
+> In this world nothing can be said to be certain, except death and taxes.
+>
+> - Benjamin Franklin
+
 - Foreign Inward Remittance Certificate (FIRC)
-- 20L+ -> GST Registration and Letter of Undertaking (LUT)
-- 50L+ -> Audited Books
-- Income Tax (Quarterly Advance Tax, Yearly Filings )
-- TDS, If you hire someone under you
+- Income Tax
+  - Quarterly Advance Tax if Tax Liability exceeds Rs. 10,000/-
+  - Yearly Filing of ITR
+- Receipts more than Rs. 20L:
+  - GST Registration
+  - Letter of Undertaking (LUT)
+- Receipts more than Rs. 50L:
+  - Audit Books under Income Tax
+  - Deduct Tax at source (TDS), If hiring someone under you
 
-## FIRC
+## Foreign Inward Remittance Certificate
 
-As exports are taxed at 0%, FIRC is used to prove that the money was not domestic.
+FIRC is a document provided by the Bank which acts as a proof of receipt of foreign currency in your bank account. Stating the incoming currency, conversion rate, reason for transfer and remitter details.
 
-It is a certificate which states the Incoming Currency, Conversion Rate, Reason for Transfer and Remitter details.
+It is provided only when foreign currency is transferred to your account and is issued by the Bank which process the conversion to INR.
 
-It is issued by the Banks which process the conversion to INR.
+As software exports are taxed at 0%, FIRC is used to prove that the money was not domestic.
 
 Getting it can be tricky when using services like Payoneer, Wise, etc. But the workaround is explained at the end.
 
+## Income Tax
+
+If your income is <= 50L, there is a Section 44ADA to save tax on 50% of the amount.
+
+Check out the [Comprehensive Guide on Tax for Freelancers
+](https://www.thegalacticadvisors.com/post/comprehensive-guide-on-tax-for-freelancers), written by people who know this much better than I do.
+
 ## GST and LUT
 
-If you landed a juicy paycheck > 20L, you have to get a GST registration. Don't worry, Software exports are rated at 0%
-tax, so you don't have to pay any GST. For this, you have to submit a Letter of Undertaking yearly via the portal, simple form, few clicks, no hassle.
+If you landed a juicy paycheck > 20L, you have to get a GST registration. Don't worry, Software and related services can be exported at 0% tax, so you don't have to pay any GST if a Letter of Undertaking is furnished. It should be submitted annually via the portal. [Simple form, few clicks, no hassle](https://cleartax.in/s/lut-letter-of-undertaking-gst).
 
 Just get registered via the [Official portal](https://gst.gov.in) and file the Monthly GST-1 and GST-3B Forms and annual return.
 
@@ -62,16 +77,12 @@ Services like Zoho Invoice connects to GST portal and makes this easy. Your CA c
 
 Once your income crosses 50L, you need to get all the books audited by your CA.
 
-## Income Tax
-
-If your income is Less than 50L, there is a Section 44ADA to save tax on 50% of the amount.
-
-Check out this [ Comprehensive Guide on Tax for Freelancers
-](https://www.thegalacticadvisors.com/post/comprehensive-guide-on-tax-for-freelancers), written by people who know this much better than I do.
-
 ## TDS
 
-If you are hiring someone, you will have to deduct 10% from their salary and pay it as Tax Deducted at Source.
+If you are hiring someone as a professional, you will have to deduct 10% from their fees if it exceeds Rs. 30,000/- annually and pay it as Tax Deducted at Source.
+For employees, you need to deduct tax as per slab rate.
+And for rent, it is 10% if amount exceeds Rs. 2.40L annually.
+
 You'll need to apply for a [TAN number](https://www.tin-nsdl.com/services/tan/tan-introduction.html).
 
 # Things we want, and how do we get them
@@ -90,9 +101,16 @@ There are a few points to note when selecting a bank.
 
 ### Forex Rates.
 
-Always negotiate with the bank for better rates with respect to IBR/MMR (Inter Bank Rate/Mid Market Rate - The rate you see on google) and not Card rate (The rate bank offers to regular customers).
+Suppose your company paid you $10,000. When you searched `10000 USD to INR` in google, it showed Rs 7,36,050. But your bank only credited Rs 7,16,050. Where did the 20k go? This is where Forex rates come into play.
 
-They usually offer 40p below IBR if the amount is around $5000USD. But based on your relationship manager and branch, it can go down to 25-30p, or even less if you're lucky.
+Google always display the Mid Market Rate, but your bank has a seperate rate (Card Rate) which they offer to regular customers.
+The card rate is always few Rupee below the Mid Market Rate.
+
+To get the best possible rates, you should always negotiate with the bank with respect to IBR/MMR (Inter Bank Rate/Mid Market Rate) and not Card rate.
+
+I've been offered 1Rs above card rate by the Person at the bank, when Card rate was 2Rs below IBR. So I would still be losing 1Re/£.
+
+They usually offer 40p below IBR if the amount is around $5000USD. But based on your relationship manager and branch, it can go down to 25-30p, or even less if you're lucky. Don't hesitate to enquire in multiple banks and leverage one agaist the other. The banks need you, so you have the upper hand here.
 
 ### Customer support
 
@@ -123,7 +141,7 @@ Two better options for getting paid are Payoneer and Wise.
 
 ### Payoneer
 
-Payoneer is staightforward, you'll get multiple recieving accounts in different currencies, all your client has to do is a local transfer to that account. Payoneer will take a 2% cut and deposit converted INR to your account.
+Payoneer is straightforward, you'll get multiple receiving accounts in different currencies, all your client has to do is a local transfer to that account. Payoneer will take a 2% cut and deposit converted INR to your account.
 
 They used to issue e-FIRCs automatically, but some people are reporting issues with that system for a few months now.
 
@@ -141,4 +159,4 @@ But thanks to a Friend from Remote Indian community, I found out that we can sen
 
 So I tried this out and it worked seamlessly! Now my bank will issue the FIRC as they are doing the conversion.
 
-Until Revolut comes to India with their borderless account, this seems like the best choice.
+Until Revolut comes to India with their borderless account, this seems like the best choice (legally 😉).
