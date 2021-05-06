@@ -38,7 +38,7 @@ But when self employed, we have pre-tax money to spend.
 
 If your income is <50L, you only have to pay tax on 50% of your income under [section 44ADA](https://www.thegalacticadvisors.com/post/comprehensive-guide-on-tax-for-freelancers).
 
-Landing a higher salary job usually means more taxes, but event then, all business related expenses like Travel, Fuel, Hotel Accomodation, Food, Electronic Gadgets, Car, Rent, etc can be deducted from your Income.
+Landing a higher salary job usually means more taxes, but even then, all business related expenses like Travel, Fuel, Hotel Accomodation, Food, Electronic Gadgets, Car, Rent, etc. can be deducted from your Income.
 
 So that's like having a 30% discount on all items.
 
