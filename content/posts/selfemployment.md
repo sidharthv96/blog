@@ -10,11 +10,11 @@ tags:
   - insurance
 ---
 
-A full time job takes care of a lot of things for us. Health insurance, tax payments, security, etc.
+A full-time job takes care of a lot of things for us. Health insurance, tax payments, security, etc.
 
-The pandemic has transformed the remote work demographics in a way even the Internet couldn't. After working for almost 3 Years in Oracle as a Full time employee, 2 years in office and 1 locked down at home, I decided to take a different path in my Career.
+The pandemic has transformed the remote work demographics in a way even the Internet couldn't. After working for almost 3 Years in Oracle as a Full-time employee, 2 years in the office and 1 locked down at home, I decided to take a different path in my career.
 
-Working at Oracle, one thing was certain, I'll get the salary credit SMS on the last day of every month. The team was amazing, we built a product from scratch, the pay was OK as per Indian standards. So when the oppurtunity to work remotely for TurgenSec in London showed up initially, I pushed it out. I didn't want to abandon my team and my project mid way, it felt like my baby. After a year, the baby had grew up, and it felt like I could safely step away. So when Peter persuaded me the second time, I took the leap.
+Working at Oracle, one thing was certain, I'll get the salary credit SMS on the last day of every month. The team was amazing, we built a product from scratch, the pay was OK as per Indian standards. So when the opportunity to work remotely for TurgenSec in London showed up initially, I pushed it out. I didn't want to abandon my team and my project mid-way, it felt like my baby. After a year, the baby had grown up, and it felt like I could safely step away. So when Peter persuaded me the second time, I took the leap.
 
 Quitting Oracle was not an easy decision Emotionally, but the belief that the personal bonds I had developed with the people over there would transcend employers made it a little easier.
 
@@ -25,7 +25,7 @@ Financially, quitting a steady job for a startup is always a risk, but I had the
 As long as the company you work for does not have an Indian Entity, the only option to be employed is as a Contractor.
 Some companies use services like [Pilot](https://pilot.com/) or [Oysters](https://www.oysterhr.com/) to employ us locally. In that case, a lot of hassles are solved.
 
-# Perks of being self employed
+# Perks of being self-employed
 
 ## More Money
 
@@ -33,30 +33,30 @@ Choosing the right company which doesn't discriminate based on where you live is
 
 ## Less Taxes
 
-As a Full time employee, the company cuts the taxes before they pay the salary.
-But when self employed, we have pre-tax money to spend.
+As a Full-time employee, the company cuts the taxes before they pay the salary.
+But when self-employed, we have pre-tax money to spend.
 
 If your income is <50L, you only have to pay tax on 50% of your income under [section 44ADA](https://www.thegalacticadvisors.com/post/comprehensive-guide-on-tax-for-freelancers).
 
-Landing a higher salary job usually means more taxes, but even then, all business related expenses like Travel, Fuel, Hotel Accomodation, Food, Electronic Gadgets, Car, Rent, etc. can be deducted from your Income.
+Landing a higher salary job usually means more taxes, but even then, all business-related expenses like Travel, Fuel, Hotel Accommodation, Food, Electronic Gadgets, Car, Rent, etc. can be deducted from your Income.
 
 So that's like having a 30% discount on all items.
 
-There is also option for GST refunds, which sweetens the deal.
+There is also an option for GST refunds, which sweetens the deal.
 
-Ps: This is not Tax Advise, Always talk to your CA for details.
+Ps: This is not Tax Advice, Always talk to your CA for details.
 
 ## Freedom
 
-Eventhough Oracle did not have strict timings and I had a great manager, peer pressure and morning meetings will force somewhat of a schedule.
+Even though Oracle did not have strict timings and I had a great manager, peer pressure and morning meetings will force somewhat of a schedule.
 
-The ability to set our own schedule is underrated. I'm usually more productive in the evening, so I could go on a date in the morning and code at night, a stunt that wouldn't be easy to pull of at a regular job.
+The ability to set our schedule is underrated. I'm usually more productive in the evening, so I could go on a date in the morning and code at night, a stunt that wouldn't be easy to pull off at a regular job.
 
 # Caveats of Remote work
 
 ## Risk
 
-You are on your own, the company could end the contract any time.
+You are on your own, the company could end the contract at any time.
 There is no guarantee of that SMS at the end of the month. If it's a startup, they could be short of funds, a client can pull out causing major setbacks, shit happens.
 
 You should have the discipline to have an emergency fund, a few months salary saved somewhere safe.
@@ -68,16 +68,16 @@ You should have the discipline to have an emergency fund, a few months salary sa
 - Keeping track of payments
 - Filing monthly taxes
 - Paying quarterly taxes
-- Year end audits
-- Keeping Reciepts, Expense reports
+- Year-end audits
+- Keeping Receipts, Expense reports
 
 Things add up, and it's a bit overwhelming for a newcomer. Having a few sources of support can help. [Remote Indian](https://remoteindian.com) has helped me beyond imagination. I cannot be thankful enough for the community over there who helped navigate the choppy waters.
 
-A good CA helps, I had to go trough 3 CAs before I finally connected with [Prasad Bhutada](mailto:prasad.bhutada@bnbca.in), another RemoteIndian member.
+A good CA helps, I had to go through 3 CAs before I finally connected with [Prasad Bhutada](mailto:prasad.bhutada@bnbca.in), another RemoteIndian member.
 
 ## Insurance
 
-Get a good Health insurance and a Term insurance if you have dependents.
+Get good Health insurance and Term insurance if you have dependents.
 
 Selecting one can be a daunting task. The #finance channel in RemoteIndian was a treasure trove of info.
 
@@ -97,7 +97,7 @@ Some banks accept Income Tax Returns as proof, some don't.
 
 I did not have this issue as I had taken multiple cards when employed at Oracle.
 
-If you don't have a Credit history, get a credit card against your FD ASAP, a solid credit score and history will help a lot in the long term.
+If you don't have a credit history, get a credit card against your FD ASAP, a solid credit score and history will help a lot in the long term.
 
 ---
 
