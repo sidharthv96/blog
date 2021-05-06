@@ -16,7 +16,7 @@ tags:
 So, you just landed your first remote job and is gonna get paid in Dollars, Pounds, Yen or any other Fiat Currency (Doge coin does not apply).
 There are multiple ways to get money into India and each has it's own issues. This is a summary of all the options that I evaluated along with very helpful bunch of people at [RemoteIndian](remoteindian.com).
 
-# TLDR; My final setup
+# TL;DR - My final setup
 
 - Current account in Axis Bank
 - Transfer fund as USD using Wise.com (Do NOT use INR transfer as getting FIRC is close to impossible)
