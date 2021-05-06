@@ -14,7 +14,7 @@ tags:
 ---
 
 So, you just landed your first remote job and is gonna get paid in Dollars, Pounds, Yen or any other Fiat Currency (Doge coin does not apply).
-There are multiple ways to get money into India and each has it's own issues. This is a summary of all the options that I evaluated along with very helpful bunch of people at [RemoteIndian](remoteindian.com).
+There are multiple ways to get money into India and each has it's own issues. This is a summary of all the options that I evaluated along with very helpful bunch of people at [RemoteIndian](https://remoteindian.com).
 
 # TL;DR - My final setup
 
@@ -54,7 +54,7 @@ Getting it can be tricky when using services like Payoneer, Wise, etc. But the w
 If you landed a juicy paycheck > 20L, you have to get a GST registration. Don't worry, Software exports are rated at 0%
 tax, so you don't have to pay any GST. For this, you have to submit a Letter of Undertaking yearly via the portal, simple form, few clicks, no hassle.
 
-Just get registered via the [Official portal](gst.gov.in) and file the Monthly GST-1 and GST-3B Forms and annual return.
+Just get registered via the [Official portal](https://gst.gov.in) and file the Monthly GST-1 and GST-3B Forms and annual return.
 
 Services like Zoho Invoice connects to GST portal and makes this easy. Your CA can also do it for you.
 

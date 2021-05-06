@@ -75,7 +75,7 @@ You should have the discipline to have an emergency fund, a few months salary sa
 - Year end audits
 - Keeping Reciepts, Expense reports
 
-Things add up, and it's a bit overwhelming for a newcomer. Having a few sources of support can help. [Remote Indian](remoteindian.com) has helped me beyond imagination. I cannot be thankful enough for the community over there who helped navigate the choppy waters.
+Things add up, and it's a bit overwhelming for a newcomer. Having a few sources of support can help. [Remote Indian](https://remoteindian.com) has helped me beyond imagination. I cannot be thankful enough for the community over there who helped navigate the choppy waters.
 
 A good CA helps, I had to go trough 3 CAs before I finally connected with [Prasad Bhutada](mailto:prasad.bhutada@bnbca.in), another RemoteIndian member.
 
