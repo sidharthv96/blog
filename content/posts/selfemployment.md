@@ -3,12 +3,14 @@ title: "Self Employment"
 date: 2021-05-06T18:31:48+05:30
 draft: false
 toc: false
-images:
+image: "/images/self.jpg"
 tags:
   - taxes
   - self employment
   - insurance
 ---
+
+![Reassurance](/images/self.jpg "Photo by sydney Rae on Unsplash")
 
 A full-time job takes care of a lot of things for us. Health insurance, tax payments, security, etc.
 
@@ -102,3 +104,5 @@ If you don't have a credit history, get a credit card against your FD ASAP, a so
 ---
 
 Overall, the change has been a wonderful experience for me, and the friendships still go strong, win-win.
+
+Photo by [sydney Rae](https://unsplash.com/@srz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/self?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
