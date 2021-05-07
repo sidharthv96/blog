@@ -39,12 +39,12 @@ I had to go through 3 CAs before I finally connected with [Prasad Bhutada](mailt
 
 - Foreign Inward Remittance Certificate (FIRC)
 - Income Tax
-  - Quarterly Advance Tax if Tax Liability exceeds Rs. 10,000/-
+  - Quarterly Advance Tax if Tax Liability exceeds ₹10,000/-
   - Yearly Filing of ITR
-- Receipts more than Rs. 20L:
+- Receipts more than ₹20L:
   - GST Registration
   - Letter of Undertaking (LUT)
-- Receipts more than Rs. 50L:
+- Receipts more than ₹50L:
   - Audit Books under Income Tax
   - Deduct Tax at source (TDS), If hiring someone under you
 
@@ -79,9 +79,10 @@ Once your income crosses 50L, you need to get all the books audited by your CA.
 
 ## TDS
 
-If you are hiring someone as a professional, you will have to deduct 10% from their fees if it exceeds Rs. 30,000/- annually and pay it as Tax Deducted at Source.
-For employees, you need to deduct tax as per the slab rate.
-And for rent, it is 10% if the amount exceeds Rs. 2.40L annually.
+If you are hiring someone as a professional, you will have to deduct 10% from their fees if it exceeds ₹30,000/- annually and pay it as Tax Deducted at Source.
+
+For employees, you need to deduct tax as per the slab rate,
+and 10% of rent if the amount exceeds ₹2.40L annually.
 
 You'll need to apply for a [TAN number](https://www.tin-nsdl.com/services/tan/tan-introduction.html).
 
@@ -101,14 +102,14 @@ There are a few points to note when selecting a bank.
 
 ### Forex Rates.
 
-Suppose your company paid you $10,000. When you searched `10000 USD to INR` in google, it showed Rs 7,36,050. But your bank only credited Rs 7,16,050. Where did the 20k go? This is where Forex rates come into play.
+Suppose your company paid you $10,000. When you searched `10000 USD to INR` in google, it showed ₹7,36,050. But your bank only credited ₹7,16,050. Where did the ₹20k go? This is where Forex rates come into play.
 
 Google always displays the Mid Market Rate, but your bank has a separate rate (Card Rate) which they offer to regular customers.
 The card rate is always a few Rupee below the Mid Market Rate.
 
-To get the best possible rates, you should always negotiate with the bank with respect to IBR/MMR (Inter-Bank Rate/Mid Market Rate) and not Card rate.
+I've been offered ₹1 above card rate by the Person at the bank when the Card rate was ₹2 below IBR. So I would still be losing ₹1/£.
 
-I've been offered 1Rs above card rate by the Person at the bank when the Card rate was 2Rs below IBR. So I would still be losing 1Re/£.
+To get the best possible rates, you should always negotiate with the bank with respect to IBR/MMR (Inter-Bank Rate/Mid Market Rate) and not Card rate.
 
 They usually offer 40p below IBR if the amount is around $5000USD. But based on your relationship manager and branch, it can go down to 25-30p, or even less if you're lucky. Don't hesitate to enquire in multiple banks and leverage one against the other. The banks need you, so you have the upper hand here.
 
