@@ -1,9 +1,9 @@
 ---
 title: "Getting money into India"
 date: 2021-05-06T16:25:47+05:30
-draft: false
 toc: false
 images:
+  - "/images/money.jpg"
 tags:
   - wise.com
   - transferwise
@@ -12,6 +12,8 @@ tags:
   - international
   - forex
 ---
+
+![Money](/images/money.jpg "Photo by Jason Leung on Unsplash")
 
 So, you just landed your first remote job and are gonna get paid in Dollars, Pounds, Yen, or any other Fiat Currency (Dogecoin does not apply).
 There are multiple ways to get money into India and each has its issues. This is a summary of all the options that I evaluated along with a very helpful bunch of people at [RemoteIndian](https://remoteindian.com).
@@ -161,3 +163,5 @@ But thanks to a Friend from Remote Indian community, I found out that we can sen
 So I tried this out and it worked seamlessly! Now my bank will issue the FIRC as they are doing the conversion.
 
 Until Revolut comes to India with their borderless account, this seems like the best choice (legally 😉).
+
+Photo by [Jason Leung](https://unsplash.com/@ninjason?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
