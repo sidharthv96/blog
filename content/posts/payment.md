@@ -158,10 +158,24 @@ A truly modern service, cheap (~0.4% fees!) and has good support. You don't have
 
 The only issue I had was that it was impossible to get FIRC issued when the amount was converted to INR.
 
-But thanks to a Friend from Remote Indian community, I found out that we can send USD directly to the account via the SWIFT network with an extra charge of around $4.
+But thanks to a Friend from Remote Indian community, I found out that we can send USD directly to the account via the SWIFT network with an extra charge of ~$4 + ~$20 bank charge that will depend on the banks.
 
 So I tried this out and it worked seamlessly! Now my bank will issue the FIRC as they are doing the conversion.
 
 Until Revolut comes to India with their borderless account, this seems like the best choice (legally 😉).
+
+---
+
+Edit on 26-May-2021
+
+There was a discussion whether foreign currency is required or not in RemoteIndian.
+
+It is still not clear, adding two documents that came up in the discussion. I will update here once there is clarity.
+
+[Section 2(6) of IGST Act](https://tgct.gov.in/tgportal/staffcollege/download_outside.aspx?fname=Miscellaneous&type=S13I.pdf)
+
+[C.B.I. & C. Circular No. 88/07/2019-GST](https://www.cbic.gov.in/htdocs-cbec/gst/circular-cgst-88.pdf)
+
+---
 
 Photo by [Jason Leung](https://unsplash.com/@ninjason?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
