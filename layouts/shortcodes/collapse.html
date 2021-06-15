@@ -1,12 +1,4 @@
-{{ if .Inner }}
-{{ if .Get "summary" }}
-{{ else }}
-{{ warnf "missing value for param 'summary': %s" .Position }}
-{{ end }}
-{{ else }}
-{{ errorf "missing value for param 'content': %s" .Position }}
-{{ end }}
-	<details style="padding-left: 1em; cursor: pointer;"  {{ if (eq (.Get "open") true) }} open=true {{ end }}>
-    <summary markdown="span">{{ .Get "summary" | markdownify }}</summary>
-    {{ .Inner | markdownify }}
-  </details>
+<details style="padding-left: 1em; cursor: pointer;"  {{ if (eq (.Get "open") true) }} open=true {{ end }}>
+	<summary markdown="span">{{ .Get "summary" | markdownify }}</summary>
+	{{ .Inner | markdownify }}
+</details>
