@@ -17,7 +17,7 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 #### Helios-Webhooks (January '19 - March '21)
 
-{{< collapse open=true summary="Lead developer of the service which facilitates to Integrate Webhooks functionality to any internal product with [CloudEvent](https://cloudevents.io/) spec" >}}
+{{< collapse summary="Lead developer of the service which facilitates to Integrate Webhooks functionality to any internal product with [CloudEvent](https://cloudevents.io/) spec" open="true" >}}
 
 - **Microservices** (Java & Node.js on Kubernetes), Kafka, Vault, CI/CD (Gitlab, Jenkins & Helm)
 - Multiple endpoint-authentication (Basic, HMAC, OAuth2.0, IDCS) support
