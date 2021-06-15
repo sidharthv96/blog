@@ -13,7 +13,6 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 - Building out an Offensive Privacy platform.
 
-
 ## Oracle | Senior Applications Engineer (June '18 - March '21)
 
 #### Helios-Webhooks (January '19 - March '21)
@@ -50,16 +49,17 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 I'm an avid open source advocate and have contributed in a small capacity to multiple projects.
 
-| Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                     | Stars&nbsp;&nbsp;&nbsp;&nbsp;                                                                | Description                                                                      |
-| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [Prettier](https://github.com/prettier/prettier/pulls?q=is%3Apr+author%3Asidharthv96+)      | ![GitHub stars](https://img.shields.io/github/stars/prettier/prettier?style=social&label)    | An opinionated code formatter                                                    |
-| [Typescript](https://github.com/microsoft/TypeScript/pulls?q=is%3Apr+author%3Asidharthv96+) | ![GitHub stars](https://img.shields.io/github/stars/microsoft/TypeScript?style=social&label) | TypeScript is a superset of JavaScript that compiles to clean JavaScript output. |
-| [Homebrew \| Brew.sh](https://github.com/Homebrew/brew.sh/pulls?q=is%3Apr+author%3Asidharthv96+) | ![GitHub stars](https://img.shields.io/github/stars/Homebrew/brew.sh?style=social&label) | The Homebrew homepage |
-| [Caprover](https://github.com/caprover/caprover/pulls?q=is%3Apr+author%3Asidharthv96)       | ![GitHub stars](https://img.shields.io/github/stars/caprover/caprover?style=social&label)    | Automated Scalable PaaS Package - Heroku on Steroids                             |
+Maintainer of [Mermaid Live Editor](https://github.com/mermaid-js/mermaid-live-editor).
 
+| Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                          | Stars&nbsp;&nbsp;&nbsp;&nbsp;                                                                | Description                                          |
+| ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Prettier](https://github.com/prettier/prettier/pulls?q=is%3Apr+author%3Asidharthv96+)           | ![GitHub stars](https://img.shields.io/github/stars/prettier/prettier?style=social&label)    | An opinionated code formatter                        |
+| [Typescript](https://github.com/microsoft/TypeScript/pulls?q=is%3Apr+author%3Asidharthv96+)      | ![GitHub stars](https://img.shields.io/github/stars/microsoft/TypeScript?style=social&label) | TypeScript is a superset of JavaScript               |
+| [Svelte Kit](https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3Asidharthv96+)              | ![GitHub stars](https://img.shields.io/github/stars/sveltejs/kit/?style=social&label)        | Cybernetically enhanced web apps                     |
+| [Homebrew \| Brew.sh](https://github.com/Homebrew/brew.sh/pulls?q=is%3Apr+author%3Asidharthv96+) | ![GitHub stars](https://img.shields.io/github/stars/Homebrew/brew.sh?style=social&label)     | The Homebrew homepage                                |
+| [Caprover](https://github.com/caprover/caprover/pulls?q=is%3Apr+author%3Asidharthv96)            | ![GitHub stars](https://img.shields.io/github/stars/caprover/caprover?style=social&label)    | Automated Scalable PaaS Package - Heroku on Steroids |
 
-Minor PRs in [Deno](https://github.com/denoland/deno/pulls?q=is%3Apr+author%3Asidharthv96+), [Strapi](https://github.com/strapi/strapi/pulls?q=is%3Apr+author%3Asidharthv96), [Manta](https://github.com/hql287/Manta/pulls?q=is%3Apr+author%3Asidharthv96) 
-
+Minor PRs in [Deno](https://github.com/denoland/deno/pulls?q=is%3Apr+author%3Asidharthv96+), [Strapi](https://github.com/strapi/strapi/pulls?q=is%3Apr+author%3Asidharthv96), [Manta](https://github.com/hql287/Manta/pulls?q=is%3Apr+author%3Asidharthv96)
 
 # Tech
 
@@ -78,6 +78,12 @@ Minor PRs in [Deno](https://github.com/denoland/deno/pulls?q=is%3Apr+author%3Asi
 - Bachelor of Technology, Computer Science and Engineering
 
 # Projects
+
+#### Mermaid Live Editor - Maintainer
+
+- Overhauled the old editor focusing on Design and UX.
+  {{< youtube w7P_9NSRrOs >}}
+- Setup a CI/CD Pipeline with Beta deploy.
 
 #### Engineering Spot Allotment - Kerala Government
 
