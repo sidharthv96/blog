@@ -21,7 +21,7 @@ There are multiple ways to get money into India and each has its issues. This is
 # TL;DR - My final setup
 
 - Current account in Axis Bank
-- Transfer fund as USD using Wise.com (Do NOT use INR transfer as getting FIRC is close to impossible)
+- Transfer fund as USD using OysterHR. ~~Wise.com (Do NOT use INR transfer as getting FIRC is close to impossible)~~
 - Zoho Invoice for Bookkeeping and GST
 - A good Chartered Accountant for all queries
 
@@ -113,7 +113,7 @@ I've been offered ₹1 above card rate by the Person at the bank when the Card r
 
 To get the best possible rates, you should always negotiate with the bank with respect to IBR/MMR (Inter-Bank Rate/Mid Market Rate) and not Card rate.
 
-They usually offer 40p below IBR if the amount is around $5000USD. But based on your relationship manager and branch, it can go down to 25-30p, or even less if you're lucky. Don't hesitate to enquire in multiple banks and leverage one against the other. The banks need you, so you have the upper hand here.
+They usually offer 40p below IBR if the amount is around $5000USD. But based on your relationship manager and branch, it can go down to 15-30p, or even less if you're ~~lucky~~ smart. Don't hesitate to enquire in multiple banks and leverage one against the other. The banks need you, so you have the upper hand here.
 
 ### Customer support
 
@@ -142,6 +142,8 @@ Stripe charges around 3-4% + 2% conversion charges, reasonable for an e-Commerce
 
 Two better options for getting paid are Payoneer and Wise.
 
+(Check the 15th July update to find the best method)
+
 ### Payoneer
 
 Payoneer is straightforward, you'll get multiple receiving accounts in different currencies, all your client has to do is a local transfer to that account. Payoneer will take a 2% cut and deposit converted INR to your account.
@@ -162,7 +164,17 @@ But thanks to a Friend from Remote Indian community, I found out that we can sen
 
 So I tried this out and it worked seamlessly! Now my bank will issue the FIRC as they are doing the conversion.
 
-Until Revolut comes to India with their borderless account, this seems like the best choice (legally 😉).
+~~Until Revolut comes to India with their borderless account, this seems like the best choice (legally 😉).~~ We have a winner down below!
+
+---
+
+Edit on 15-July-2021
+
+## OysterHR
+
+I tried [OysterHR](https://oysterhr.com/) because an acquaintance works there. They provide a London account to deposit the funds and the exact amount deposited was credited to my account in GBP. No interbank fees or Transfer charges.
+
+So with direct GBP in my account without any transfer charges, this seems to be the sweet spot for now.
 
 ---
 
