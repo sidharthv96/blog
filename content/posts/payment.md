@@ -162,9 +162,21 @@ The only issue I had was that it was impossible to get FIRC issued when the amou
 
 But thanks to a Friend from Remote Indian community, I found out that we can send USD directly to the account via the SWIFT network with an extra charge of ~$4 + ~$20 bank charge that will depend on the banks.
 
+To enable USD-USD transfer, your client will need to send a message to Wise to enable it as it's not done by default.
+
+This is a template you can send to your client.
+
+```
+Hello, for payment, you can register on Wise.com. After that please go to this link:
+https://wise.com/help/contact/channels/email?issue=general-how-it-works&topic=general
+You can write there: Hello, can you please enable USD to USD transfer to my account?
+```
+
 So I tried this out and it worked seamlessly! Now my bank will issue the FIRC as they are doing the conversion.
 
 ~~Until Revolut comes to India with their borderless account, this seems like the best choice (legally 😉).~~ We have a winner down below!
+
+Ps: Wise.com is working on bringing USD-INR conversion with FIRC in Q1 2022. If that is released, it'll be the better option.
 
 ---
 
