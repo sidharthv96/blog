@@ -227,4 +227,8 @@ It is still not clear, adding two documents that came up in the discussion. I wi
 
 ---
 
+This post is solely based on my experience. This is not financial advice. This is not tax advice. Please do your own due diligence.
+
+---
+
 Photo by [Jason Leung](https://unsplash.com/@ninjason?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
