@@ -42,7 +42,9 @@ If you have the documents in hand, compressed to the right sizes, it shouldn't t
 - Go to [Sarthi - Parivahan](https://sarathi.parivahan.gov.in/sarathiservice)
 - Select your State
 - Apply for International Driving Permit (IDP)
-- Enter license details. Format: `<State Code><RTO Code><Year of issue>000<License Number>`. Eg: KA6920120001234
+- Enter license details.
+  - Format: `<State Code><RTO Code><Year of issue>000<License Number>`
+  - Eg: KA6920120001234
 - ! Select your "RTO" office, **NOT** your joint RTO who might've issued your license.
 - In select services, choose International driving license. If you don't see that option, you should change your RTO in the previous step.
 - ! Prepare passport and Visa (Important!)
