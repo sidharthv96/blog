@@ -1,0 +1,9 @@
+[build]
+  command = "hugo -t hermit"
+  context = "production"
+  publish = "public"
+
+[context.production.environment]
+  HUGO_VERSION = "0.105.0"
+  HUGO_ENV = "production"
+  

@@ -59,6 +59,10 @@ googleAnalytics = "UA-169182193-1"
     name = "twitter"
     url = "https://twitter.com/sidv42"
 
+[[params.social]]
+    name = "email"
+    url = "mailto:hi@sidharth.dev"
+
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/sidharth-vinod/"
