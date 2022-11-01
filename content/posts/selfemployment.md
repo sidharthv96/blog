@@ -90,7 +90,7 @@ https://www.reddit.com/r/IndiaInvestments/comments/mxekfy/my_thorough_research_o
 
 https://www.reddit.com/r/IndiaInvestments/comments/2h3r0a/how_to_buy_a_health_insurance_policy_steps_and/ckp7ie2/
 
-{{< tweet 1313718353370857477 >}}
+{{< tweet user="wiredmau5" id="1313718353370857477" >}}
 
 ## Credit Cards
 
