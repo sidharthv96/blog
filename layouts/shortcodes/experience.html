@@ -1,0 +1,30 @@
+{{if .Get "small"}}
+<div style="display: flex; align-items: baseline;">
+<h4 id="{{ .Get "company"}}" style="margin-bottom: 0;">
+  {{ if .Get "url" }}<a href="{{ .Get "url" }}">
+    {{ .Get "company"}}
+  </a>
+  {{else}}
+  {{ .Get "company"}}
+  {{end}}
+  {{ if .Get "position"}} | {{ .Get "position" }}{{end}}</h4>
+  <span style="font-size: small; opacity: 0.6; margin-top: 0;">
+  &nbsp;{{ .Get "start" }} - {{ .Get "end" }}
+</span>
+</div>
+{{else}}
+<div style="display: flex; align-items: baseline;">
+<h2 id="{{ .Get "company"}}" style="margin-bottom: 0;">
+  {{ if .Get "url" }}<a href="{{ .Get "url" }}">
+    {{ .Get "company"}}
+  </a>
+  {{else}}
+  {{ .Get "company"}}
+  {{end}}
+  {{ if .Get "position"}} | {{ .Get "position" }}{{end}}</h2>
+  <span style="font-size: large; opacity: 0.6; margin-top: 0;">
+  &nbsp;{{ .Get "start" }} - {{ .Get "end" }}
+</span>
+</div>
+{{end}}
+

@@ -7,15 +7,20 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 # Professional Experience
 
-## TurgenSec | CTO (March '21 - Present)
+{{< experience company="MermaidCharts" position="Founding Engineer" start="October '22" end="Present" url="https://www.mermaidchart.com">}}
+
+{{< experience company="TurgenSec" position="CTO" start="March '21" end="October '22" url="https://https://web.archive.org/web/20221027171949/https://www.turgensec.com/">}}
+
+[Acquired](https://techround.co.uk/news/secretive-gchq-funded-company-turgensec-acquired/)
+(Do not ask who bought us.)
 
 ### DataShadow
 
 - Building out an Offensive Privacy platform.
 
-## Oracle | Senior Applications Engineer (June '18 - March '21)
+{{< experience company="Oracle" position="Senior Applications Engineer" start="June '18" end="March '21" url="https://www.oracle.com/">}}
 
-#### Helios-Webhooks (January '19 - March '21)
+{{< experience company="Helios-Webhooks" small="true" start="January '19" end="March '21">}}
 
 {{< collapse summary="Lead developer of the service which facilitates to Integrate Webhooks functionality to any internal product with [CloudEvent](https://cloudevents.io/) spec" open="true" >}}
 
@@ -26,7 +31,7 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 {{< /collapse >}}
 
-#### Helios-Extensions (March '20 - March '21)
+{{< experience company="Helios-Extensions" small="true" start="March '20" end="March '21">}}
 
 {{< collapse summary="Allows customers to write custom code to act on system events using Webhooks and **Serverless** Platform (Oracle Fn)" >}}
 
@@ -35,7 +40,7 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 {{< /collapse >}}
 
-#### Helios-Vision (September '19 - March '21)
+{{< experience company="Helios-Vision" small="true" start="September '19" end="March '21">}}
 
 {{< collapse summary="Created a Typescript library to provide core functionality required to build a Microservice with Node.js" >}}
 
@@ -47,7 +52,7 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 {{< /collapse >}}
 
-#### [Element Manager](http://documentation.custhelp.com/euf/assets/devdocs/buiadmin/topicrefs/c_bui_Overview_Element_Manager.html) (June '18 - January '19)
+{{< experience company="Element Manager" small="true" start="June '18" end="January '19" url="http://documentation.custhelp.com/euf/assets/devdocs/buiadmin/topicrefs/c_bui_Overview_Element_Manager.html">}}
 
 {{< collapse summary="Product that supports Import/Export of Custom Elements like Reports, Workspaces, etc in Oracle Service Cloud" >}}
 
@@ -75,12 +80,12 @@ Minor PRs in [Deno](https://github.com/denoland/deno/pulls?q=is%3Apr+author%3Asi
 
 # Tech
 
-- Languages : Java, TypeScript/JavaScript, Python
-- Backend : Spring, Express
-- UI : Vue, Svelte, JET
-- Testing : JUnit, Jest, K6
-- Services : Kafka, PostgreSQL, Vault, Swagger
-- Infrastructure : Docker, Kubernetes, Jenkins, Helm, Gitlab CI, OCI, AWS
+- Languages : TypeScript/JavaScript, Java, Python
+- Backend : SvelteKit, Express, Spring
+- UI : Svelte, Vue, JET
+- Testing : Vitest, Jest, K6, JUnit
+- Services : Kafka, PostgreSQL, Vault, Swagger, Supabase
+- Infra : Docker, Kubernetes, AWS, OCI, Helm, Github Actions, Gitlab CI, Jenkins
 - IoT : ESP32, Arduino, RC522 RFID
 
 # Education
