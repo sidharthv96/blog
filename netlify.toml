@@ -1,7 +1,13 @@
 [build]
-  command = "hugo -b $DEPLOY_URL -t hermit"
+  command = "hugo -t hermit"
   context = "production"
   publish = "public"
+
+[context.deploy-preview]
+  command = "hugo -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "hugo -b $DEPLOY_PRIME_URL"
 
 [build.environment]
   HUGO_VERSION = "0.101.0"
