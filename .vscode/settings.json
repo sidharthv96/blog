@@ -4,5 +4,5 @@
   "pasteImage.path": "${projectRoot}/static/images/mermaid",
   "pasteImage.prefix": "/",
   "pasteImage.showFilePathConfirmInputBox": true,
-  "cSpell.words": ["dagre", "Treemap"]
+  "cSpell.words": ["dagre", "graphlib", "Treemap"]
 }

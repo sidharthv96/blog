@@ -1,12 +1,19 @@
 ---
 title: "Shrinking Mermaid"
 date: 2022-11-20T12:19:15+05:30
-draft: true
 toc: false
 images:
 tags:
   - untagged
 ---
+
+# Mermaid
+
+Mermaid is a markdown based diagramming tool. It is a javascript library that can be used to generate diagrams from text in a similar manner as markdown.
+
+I've been a maintainer of the mermaid project for a while now. Mostly focused on the live editor, [mermaid.live](https://mermaid.live). 
+
+Let's see how far we can shrink mermaid from it's current 2.05 MiB size.
 
 # Types of bundles in Mermaid
 
@@ -14,9 +21,9 @@ tags:
 
 This is usually imported directly by static sites via a `script` tag, and contains all dependencies required to render mermaid diagrams inside it. This is the largest bundle, with 0 external dependencies.
 
-There is an ESM version of this bundle named `mermaid.esm.mjs` which is the recommended version to use in modern browsers.
+`mermaid.esm.mjs` is the ESM version of mermaid, which is the recommended version to use in modern browsers.
 
-There are minified versions of both these bundles named `mermaid.min.js` and `mermaid.esm.min.mjs` respectively.
+`mermaid.min.js` and `mermaid.esm.min.mjs` are minified versions of these bundles.
 
 ## Mermaid Core bundle - `mermaid.core.mjs`
 
@@ -33,6 +40,17 @@ This only contains the core mermaid code and is supposed to be used with bundler
 | mermaid.min.js      | 1148.52 KiB | 347.79 KiB |
 
 # Composition of bundles
+
+Just knowing that there are 3 bundles is not enough. We need to know what each bundle contains and how they are composed. Only then can we figure out how we can reduce the bundle size.
+
+A quick google search landed me on [rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer), which is a rollup plugin that generates a visual representation of the bundle.
+
+[This](https://github.com/mermaid-js/mermaid/pull/3823) PR adds the visualizer plugin to the mermaid repo and generates 3 types of graphs.
+
+Treemap & Sunburst are useful to see the space utilization.
+Network shows us the dependency graph. It's a bit messy, so you might need to play around with the regex to clean some stuff out.
+
+Opening the diagrams in new tab will give you a better view.
 
 ## mermaid.js
 
@@ -139,3 +157,123 @@ But, if we were using the old `import { isEmpty } from "lodash-es";` syntax, it 
 The sunburst diagram is a great tool to see which are the biggest components of the bundle. We can see that lodash is now 10.08% of the bundle size, and is still the biggest dependency.
 
 ---
+
+## Dagre & Dagre-D3
+
+As these libraries were unmaintained, [Alois Klink](https://github.com/aloisklink) raised [this PR](https://github.com/mermaid-js/mermaid/pull/3809) to replace them with [dagre-d3-es](https://github.com/tbo47/dagre-es), which shaved of another 216Kb from the `mermaid.js` bundle.
+
+| Bundle           | Size    | Old     | Change   | % Change |
+| ---------------- | ------- | ------- | -------- | -------- |
+| mermaid.js       | 1839.41 | 2055.7  | \-216.29 | \-10.52  |
+| mermaid.core.mjs | 1313.80 | 1080.32 | +233.48  | +21.61   |
+
+But there's something interesting here, the core build has gone up 20% in size. Let's dig in.
+
+{{< iframe title="Treemap after adding dagre-d3-es" url="/html/mermaid/new/before-dagre-es-fix/treemap.html" open=true >}}
+{{< iframe title="Network after adding dagre-d3-es" url="/html/mermaid/new/before-dagre-es-fix/network.html" >}}
+{{< iframe title="Sunburst after adding dagre-d3-es" url="/html/mermaid/new/before-dagre-es-fix/sunburst.html" >}}
+
+So we can see that the savings came from unused stuff in dagre-d3 being tree shaken off, but a humongous lodash-es dependency was added. `lodash-es` was supposed to be treeshakeable and the solution to the problem, but it seems like it's not. So let's try to fix it.
+
+Looking at the source, we see the following import.
+
+```ts
+import _ from "lodash-es";
+```
+
+From a blog I read earlier (don't remember which), I knew that this was a bad practice, and that we should import the specific functions we need, instead of the whole library. Or, we should do the following to enable tree-shaking.
+
+```ts
+import * as _ from "lodash-es";
+```
+
+As it's an external dependency, we'll have to raise a PR in the `dagre-d3-es` repo. But to validate the fix, we can have to
+
+- Fork it
+- Build locally
+- Link the local build it in pnpm
+- Link it to mermaid
+- Build mermaid
+
+Or...
+
+- Do a find & replace in `node_modules > dagre-d3-es`
+- Build mermaid
+
+```diff
+- import _ from 'lodash-es';
++ import * as _ from 'lodash-es';
+```
+
+Guess which one I did? 😅
+
+![](/images/mermaid/lodash-es-replace.png)
+
+| Bundle           | Initial | After dagre-es | After fix | Change   | % Change |
+| ---------------- | ------- | -------------- | --------- | -------- | -------- |
+| mermaid.js       | 2055.7  | 1839.41        | 1694.35   | \-361.35 | \-17.58  |
+| mermaid.core.mjs | 1080.32 | 1313.80        | 1178.73   | +98.41   | +9.11    |
+
+So, just by changing the import syntax, we were able to reduce the bundle size by 17.58% (361.35 KiB).
+
+But the core is still up by 9.11%. What could it be?
+
+{{< iframe title="Treemap after fixing dagre-d3-es" url="/html/mermaid/new/after-dagre-es-fix/treemap.html" open=true >}}
+{{< iframe title="Network after fixing dagre-d3-es" url="/html/mermaid/new/after-dagre-es-fix/network.html" >}}
+{{< iframe title="Sunburst after fixing dagre-d3-es" url="/html/mermaid/new/after-dagre-es-fix/sunburst.html" >}}
+
+Hmm... `lodash` and `lodash-es`... 🤔
+Remember when I said `lodash` is a sub-dependency, well if you look at the packages, `dagre` & `dagre-d3` were the ones importing `lodash`. Now that they're gone, `lodash` is a direct unnecessary dependency of mermaid. Let's replace it with `lodash-es`, what `dagre-d3-es` is using.
+
+![](/images/mermaid/replace-loadsh-es-imports.png)
+
+| Bundle     | Initial | dagre-es | fix import | lodash-es | Change | % Change |
+| ---------- | ------- | -------- | ---------- | --------- | ------ | -------- |
+| mermaid.js | 2055    | 1839     | 1694       | 1707      | \-348  | \-16.94  |
+| core.mjs   | 1080    | 1313     | 1178       | 1105      | +25    | +2.36    |
+
+So, core went from +9.11% to +2.36%. But `mermaid.js` went from -17.58% to -16.94%. What's going on?
+
+{{< iframe title="Treemap after replacing lodash with lodash-es" url="/html/mermaid/new/removing-lodash/treemap.html" open=true >}}
+{{< iframe title="Network after replacing lodash with lodash-es" url="/html/mermaid/new/removing-lodash/network.html" >}}
+{{< iframe title="Sunburst after replacing lodash with lodash-es" url="/html/mermaid/new/removing-lodash/sunburst.html" >}}
+
+There is still 2 lodash! Ughh...
+
+The network graph is supposed to be used to find dependencies, but I wasn't able to find who is importing lodash. So I just randomly moved the cursor inside lodash to see if there's any "imported by" that shows up. And there was!
+
+![](/images/mermaid/two-lodash.png)
+
+Alois did mention in [a comment](https://github.com/mermaid-js/mermaid/pull/3809#issuecomment-1320410962) that dagre-d3-es has a `graphlib` implementation. So let's see if we can use that.
+
+![](/images/mermaid/graphlibUsage.png)
+
+```diff
+- import graphlib from 'graphlib';
++ import * as graphlib from 'dagre-d3-es/src/graphlib';
++ import * as graphlibJson from 'dagre-d3-es/src/graphlib/json';
+
+...
+
+- graphlib.json.write(graph);
++ graphlibJson.write(graph);
+```
+
+After making the above changes, we can see that the bundle size has gone down by 23.97% (492 KiB). `core` is still up by 2%, _not great, not terrible_.
+
+| Bundle     | Initial | lodash-es | graphlib | Change | % Change |
+| ---------- | ------- | --------- | -------- | ------ | -------- |
+| mermaid.js | 2055    | 1707      | 1563     | \-492  | \-23.97  |
+| core.mjs   | 1080    | 1105      | 1106     | +26    | +2.38    |
+
+{{< iframe title="Treemap after fixing dagre-d3-es" url="/html/mermaid/new/graphlib/treemap.html" open=true >}}
+{{< iframe title="Network after fixing dagre-d3-es" url="/html/mermaid/new/graphlib/network.html" >}}
+{{< iframe title="Sunburst after fixing dagre-d3-es" url="/html/mermaid/new/graphlib/sunburst.html" >}}
+
+---
+
+## Conclusion
+
+So, we started with a 2.05 MiB bundle, and ended up with a 1.56 MiB bundle. That's a 23.97% reduction in bundle size. Not bad for a day's work.
+
+Special thanks to Alois, [Thibaut (Teebo)](https://github.com/tbo47/dagre-es), [Denis Bardadym](https://github.com/btd/rollup-plugin-visualizer) and all the creators of the tools used in this post.
