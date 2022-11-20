@@ -280,4 +280,8 @@ After making the above changes, we can see that the bundle size has gone down by
 
 So, we started with a 2.05 MiB bundle, and ended up with a 1.56 MiB bundle. That's a 23.97% reduction in bundle size. Not bad for a day's work.
 
-Special thanks to Alois, [Thibaut (Teebo)](https://github.com/tbo47/dagre-es), [Denis Bardadym](https://github.com/btd/rollup-plugin-visualizer) and all the creators of the tools used in this post.
+The load time difference on 4G connection preset.
+![Pre Optimisation load time](/images/mermaid/initialLoadTime.png)
+![Post Optimisation load time](/images/mermaid/finalLoadTime.png)
+
+Special thanks to [Alois](https://github.com/aloisklink), [Thibaut (Teebo)](https://github.com/tbo47/dagre-es), [Denis Bardadym](https://github.com/btd/rollup-plugin-visualizer) and all the creators of the tools used in this post.
