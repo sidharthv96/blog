@@ -114,7 +114,6 @@ table {
   empty-cells: show;
   width: 100%;
   max-width: 100%;
-
   th,
   td {
     padding: 1.5%;
@@ -576,7 +575,7 @@ hr.post-end {
   img {
     display: block;
     max-width: 100%;
-    height: auto;
+    // height: auto;
     margin: auto;
     border-radius: 4px;
   }

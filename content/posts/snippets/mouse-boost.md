@@ -1,5 +1,5 @@
 ---
-title: 'Mouse Boost'
+title: "Mouse Boost"
 date: 2020-07-06T14:02:31+05:30
 draft: false
 toc: false
@@ -15,7 +15,7 @@ I'm lazy and I hate non productive work. Why move the mouse a whole inch, if hal
 One of the main reason that I love Macbooks is the Trackpad. Nothing in else in the world currently matches that absolute marvel!
 But there are a few things I tweak from the factory settings.
 
-We are using the defaults command to change the settings rather than System Preferences. Take a look at [Pawel Grzybek's post](https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/) to learn more.
+We are using the defaults command to change the settings rather than System Preferences. Take a look at [Pawel Grzybek&#39;s post](https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/) to learn more.
 
 ## Speed
 
