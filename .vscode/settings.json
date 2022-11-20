@@ -1,3 +1,8 @@
 {
-  "files.autoSave": "onFocusChange"
+  "files.autoSave": "onFocusChange",
+  "pasteImage.basePath": "${projectRoot}/static",
+  "pasteImage.path": "${projectRoot}/static/images/mermaid",
+  "pasteImage.prefix": "/",
+  "pasteImage.showFilePathConfirmInputBox": true,
+  "cSpell.words": ["dagre", "graphlib", "Treemap"]
 }

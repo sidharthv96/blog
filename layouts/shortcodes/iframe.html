@@ -1,0 +1,10 @@
+<details style="padding-left: 1em; cursor: pointer;"  {{ if (eq (.Get "open") true) }} open=true {{ end }}>
+  <summary>{{.Get "title"}} | <a href="{{.Get "url"}}" target="_blank">Full screen</a></summary>
+  <iframe
+    src="{{.Get "url"}}"
+		loading="lazy"
+    width="100%"
+    height="600"
+    style="border: 0"
+  ></iframe>
+</details>
