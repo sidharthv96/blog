@@ -270,9 +270,9 @@ After making the above changes, we can see that the bundle size has gone down by
 | mermaid.js | 2055    | 1707      | 1563     | \-492  | \-23.97  |
 | core.mjs   | 1080    | 1105      | 1106     | +26    | +2.38    |
 
-{{< iframe title="Treemap after fixing dagre-d3-es" url="/html/mermaid/new/graphlib/treemap.html" open=true >}}
-{{< iframe title="Network after fixing dagre-d3-es" url="/html/mermaid/new/graphlib/network.html" >}}
-{{< iframe title="Sunburst after fixing dagre-d3-es" url="/html/mermaid/new/graphlib/sunburst.html" >}}
+{{< iframe title="Treemap after fixing graphlib" url="/html/mermaid/new/graphlib/treemap.html" open=true >}}
+{{< iframe title="Network after fixing graphlib" url="/html/mermaid/new/graphlib/network.html" >}}
+{{< iframe title="Sunburst after fixing graphlib" url="/html/mermaid/new/graphlib/sunburst.html" >}}
 
 ---
 
