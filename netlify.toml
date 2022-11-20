@@ -1,5 +1,5 @@
 [build]
-  command = "hugo -t hermit"
+  command = "hugo -b $DEPLOY_URL -t hermit"
   context = "production"
   publish = "public"
 
