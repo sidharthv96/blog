@@ -4,7 +4,11 @@ date: 2022-11-20T12:19:15+05:30
 toc: false
 images:
 tags:
-  - untagged
+  - mermaid
+  - dependency
+  - optimization
+  - rollup
+  - vite
 ---
 
 # Mermaid
