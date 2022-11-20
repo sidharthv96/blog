@@ -1,5 +1,5 @@
 ---
-title: "Shrinking Mermaid"
+title: "Shrinking Mermaid ~25%"
 date: 2022-11-20T12:19:15+05:30
 toc: false
 images:
@@ -9,6 +9,7 @@ tags:
   - optimization
   - rollup
   - vite
+  - performance
 ---
 
 # Mermaid
