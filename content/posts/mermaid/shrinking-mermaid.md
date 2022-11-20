@@ -1,5 +1,5 @@
 ---
-title: "Shrinking Mermaid ~25%"
+title: "Shrinking Mermaid >30%"
 date: 2022-11-20T12:19:15+05:30
 toc: false
 images:
@@ -14,11 +14,11 @@ tags:
 
 # Mermaid
 
-Mermaid is a markdown based diagramming tool. It is a javascript library that can be used to generate diagrams from text in a similar manner as markdown.
+Mermaid is a markdown based diagramming tool. It is a javascript library that can be used to generate diagrams from text, similar to Markdown.
 
 I've been a maintainer of the mermaid project for a while now. Mostly focused on the live editor, [mermaid.live](https://mermaid.live).
 
-Let's see how far we can shrink mermaid from it's current 2.05 MiB size.
+Let's see how far we can shrink mermaid from its current 2.05 MiB size.
 
 # Types of bundles in Mermaid
 
@@ -69,7 +69,7 @@ Opening the diagrams in new tab will give a better view.
 {{< iframe title="Network Diagram" url="/html/mermaid/old/mermaid.core.mjs/network.html" >}}
 {{< iframe title="Sunburst Diagram" url="/html/mermaid/old/mermaid.core.mjs/sunburst.html" >}}
 
-You can see that the core build contains just the core internal components. (There is some extra dependencies added, I'm not really sure why vite included it, but it's a very small fraction (7.8%), compared to 58.8% of unified build)
+You can see that the core build contains just the core internal components. (There are some extra dependencies added, I'm not really sure why vite included it, but it's a very small fraction (7.8%), compared to 58.8% of unified build)
 
 ---
 
@@ -150,7 +150,7 @@ So just one line change reduced the bundle size by 9.88% (225.44 KiB). Awesome!
 
 I tried using the `lodash-es` package, which is a ES module version of lodash, but it didn't help much. It actually increased the size of the bundle by 30 KiB. So let's stick with the `lodash` package.
 
-| Bundle           | Initial | lodash-es | Change | % Change |
+| Bundle           | lodash  | lodash-es | Change | % Change |
 | ---------------- | ------- | --------- | ------ | -------- |
 | mermaid.core.mjs | 1080.32 | 1104.15   | +23.83 | +2.22    |
 | mermaid.js       | 2055.7  | 2085.77   | +30.07 | +1.46    |
@@ -165,11 +165,11 @@ The sunburst diagram is a great tool to see which are the biggest components of 
 
 ## Dagre & Dagre-D3
 
-As these libraries were unmaintained, [Alois Klink](https://github.com/aloisklink) raised [this PR](https://github.com/mermaid-js/mermaid/pull/3809) to replace them with [dagre-d3-es](https://github.com/tbo47/dagre-es), which shaved of another 216Kb from the `mermaid.js` bundle.
+As these libraries were unmaintained, [Alois Klink](https://github.com/aloisklink) raised [this PR](https://github.com/mermaid-js/mermaid/pull/3809) to replace them with [dagre-d3-es](https://github.com/tbo47/dagre-es), which shaved off another 216Kb from the `mermaid.js` bundle.
 
 | Bundle           | Initial | dagre-d3-es | Change   | % Change |
 | ---------------- | ------- | ----------- | -------- | -------- |
-| mermaid.js       | 2055.7  | 1839.41     | \-216.29 | \-10.52  |
+| mermaid.js       | 2281.14 | 1839.41     | \-441.73 | \-19.36  |
 | mermaid.core.mjs | 1080.32 | 1313.80     | +233.48  | +21.61   |
 
 But there's something interesting here, the core build has gone up 20% in size. Let's dig in.
@@ -214,10 +214,10 @@ Guess which one I did? 😅
 
 ![](/images/mermaid/lodash-es-replace.png)
 
-| Bundle           | Initial | After dagre-es | After fix | Change   | % Change |
-| ---------------- | ------- | -------------- | --------- | -------- | -------- |
-| mermaid.js       | 2055.7  | 1839.41        | 1694.35   | \-361.35 | \-17.58  |
-| mermaid.core.mjs | 1080.32 | 1313.80        | 1178.73   | +98.41   | +9.11    |
+| Bundle           | Initial | After `dagre-es` | After fix | Change   | % Change |
+| ---------------- | ------- | ---------------- | --------- | -------- | -------- |
+| mermaid.js       | 2281.14 | 1839.41          | 1694.35   | \-586.79 | \-25.72  |
+| mermaid.core.mjs | 1080.32 | 1313.80          | 1178.73   | +98.41   | +9.11    |
 
 So, just by changing the import syntax, the bundle size shrank 17.58% (361.35 KiB).
 
@@ -230,14 +230,14 @@ But the core is still up by 9.11%. What could it be?
 {{< iframe title="Sunburst after fixing dagre-d3-es" url="/html/mermaid/new/after-dagre-es-fix/sunburst.html" >}}
 
 Hmm... `lodash` and `lodash-es`... 🤔
-Remember when I said `lodash` is a sub-dependency, well if you look at the packages, `dagre` & `dagre-d3` were the ones importing `lodash`. Now that they're gone, `lodash` is a direct _unnecessary_ dependency of mermaid. Let's replace it with `lodash-es`, what `dagre-d3-es` is using.
+Remember when I said `lodash` is a sub-dependency, well if you look at the packages, `dagre` & `dagre-d3` were the ones importing `lodash`. Now that they're gone, `lodash` is a direct, _unnecessary_ dependency of mermaid. Let's replace it with `lodash-es`, what `dagre-d3-es` is using.
 
 ![](/images/mermaid/replace-loadsh-es-imports.png)
 
-| Bundle     | Initial | dagre-es | fix import | lodash-es | Change | % Change |
-| ---------- | ------- | -------- | ---------- | --------- | ------ | -------- |
-| mermaid.js | 2055    | 1839     | 1694       | 1707      | \-348  | \-16.94  |
-| core.mjs   | 1080    | 1313     | 1178       | 1105      | +25    | +2.36    |
+| Bundle     | Initial | `dagre-es` | Fix import | `lodash-es` | Change | % Change |
+| ---------- | ------- | ---------- | ---------- | ----------- | ------ | -------- |
+| mermaid.js | 2281    | 1839       | 1694       | 1707        | \-574  | \-25.17  |
+| core.mjs   | 1080    | 1313       | 1178       | 1105        | +25    | +2.36    |
 
 So, core went from +9.11% to +2.36%. But `mermaid.js` went from -17.58% to -16.94%. What's going on?
 
@@ -268,10 +268,10 @@ Alois did mention in [a comment](https://github.com/mermaid-js/mermaid/pull/3809
 
 After making the above changes, we can see that the bundle size has gone down by 23.97% (492 KiB). `core` is still up by 2%, _not great, not terrible_.
 
-| Bundle     | Initial | lodash-es | graphlib | Change | % Change |
-| ---------- | ------- | --------- | -------- | ------ | -------- |
-| mermaid.js | 2055    | 1707      | 1563     | \-492  | \-23.97  |
-| core.mjs   | 1080    | 1105      | 1106     | +26    | +2.38    |
+| Bundle     | Initial | `lodash-es` | `graphlib` | Change   | % Change |
+| ---------- | ------- | ----------- | ---------- | -------- | -------- |
+| mermaid.js | 2281    | 1707        | 1563       | \-718.14 | \-31.48  |
+| core.mjs   | 1080    | 1105        | 1106       | +26      | +2.38    |
 
 {{< iframe title="Treemap after fixing graphlib" url="/html/mermaid/new/graphlib/treemap.html" open=true >}}
 {{< iframe title="Network after fixing graphlib" url="/html/mermaid/new/graphlib/network.html" >}}
@@ -279,9 +279,39 @@ After making the above changes, we can see that the bundle size has gone down by
 
 ---
 
+## Trimming mermaid.core.mjs
+
+There were some external dependencies being added in `mermaid.core.mjs`, which was confusing as the core build is supposed to be free of external dependencies. Alois figured out why and even had a solution for it.
+
+{{< figure src="/images/mermaid/coreExtraDeps.png" title="Extra dependencies in core build" height=300px >}}
+
+> It looks like the issue we have is that vite is ignoring all of our dependencies for the mermaid.core.\* builds, but it's not ignoring the dependencies of our dependencies.
+> This could be fixed with something like
+> https://www.npmjs.com/package/rollup-plugin-node-externals maybe (I think rollup plugins usually work in Vite at least)
+>
+> -- Alois
+
+Unfortunately, this plugin wasn't working with vite. Digging into the source, I got the regex they were using to filter stuff out. Adding it directly into the build script worked.
+
+```diff
+-    external.push(...Object.keys(dependencies));
++    external.push(new RegExp('^(?:' + Object.keys(dependencies).join('|') + ')(?:/.+)?$'));
+```
+
+| Bundle     | Initial | Final   | Change   | % Change |
+| ---------- | ------- | ------- | -------- | -------- |
+| mermaid.js | 2281.14 | 1563.71 | \-718.14 | \-31.48  |
+| core.mjs   | 1080.73 | 1025.56 | \-54.76  | \-5.07   |
+
+Finally, core is clean!
+
+{{< iframe title="Treemap after fixing core build" url="/html/mermaid/new/fix-core/treemap.core.html" open=true >}}
+{{< iframe title="Network after fixing core build" url="/html/mermaid/new/fix-core/network.core.html" >}}
+{{< iframe title="Sunburst after fixing core build" url="/html/mermaid/new/fix-core/sunburst.core.html" >}}
+
 ## Conclusion
 
-So, we started with a 2.05 MiB bundle, and ended up with a 1.56 MiB bundle. That's a 23.97% reduction in bundle size. Not bad for a day's work.
+So, we started with a 2.28 MiB bundle, and ended up with a 1.56 MiB bundle. That's a 31.48% reduction in bundle size. Not bad for a day's work.
 
 The load time difference on 4G connection preset.
 ![Pre Optimization load time](/images/mermaid/initialLoadTime.png)
