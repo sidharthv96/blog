@@ -317,4 +317,6 @@ The load time difference on 4G connection preset.
 ![Pre Optimization load time](/images/mermaid/initialLoadTime.png)
 ![Post Optimization load time](/images/mermaid/finalLoadTime.png)
 
+I'll cover how we added lazy loading to mermaid to further reduce the bundle size in a future post.
+
 Special thanks to [Alois](https://github.com/aloisklink), [Thibaut (Teebo)](https://github.com/tbo47/dagre-es), [Denis Bardadym](https://github.com/btd/rollup-plugin-visualizer) and all the creators of the tools used in this post.
