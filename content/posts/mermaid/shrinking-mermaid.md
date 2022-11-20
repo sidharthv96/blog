@@ -165,14 +165,14 @@ The sunburst diagram is a great tool to see which are the biggest components of 
 
 ## Dagre & Dagre-D3
 
-As these libraries were unmaintained, [Alois Klink](https://github.com/aloisklink) raised [this PR](https://github.com/mermaid-js/mermaid/pull/3809) to replace them with [dagre-d3-es](https://github.com/tbo47/dagre-es), which shaved off another 216Kb from the `mermaid.js` bundle.
+As these libraries were unmaintained, [Alois Klink](https://github.com/aloisklink) raised [this PR](https://github.com/mermaid-js/mermaid/pull/3809) to replace them with [dagre-d3-es](https://github.com/tbo47/dagre-es), which shaved off another 216KiB from the `mermaid.js` bundle.
 
 | Bundle           | Initial | dagre-d3-es | Change   | % Change |
 | ---------------- | ------- | ----------- | -------- | -------- |
 | mermaid.js       | 2281.14 | 1839.41     | \-441.73 | \-19.36  |
 | mermaid.core.mjs | 1080.32 | 1313.80     | +233.48  | +21.61   |
 
-But there's something interesting here, the core build has gone up 20% in size. Let's dig in.
+But there's something interesting here, the core build has gone up 21% in size. Let's dig in.
 
 {{< iframe title="Treemap after adding dagre-d3-es" url="/html/mermaid/new/before-dagre-es-fix/treemap.html" open=true >}}
 {{< iframe title="Network after adding dagre-d3-es" url="/html/mermaid/new/before-dagre-es-fix/network.html" >}}
@@ -219,7 +219,7 @@ Guess which one I did? 😅
 | mermaid.js       | 2281.14 | 1839.41          | 1694.35   | \-586.79 | \-25.72  |
 | mermaid.core.mjs | 1080.32 | 1313.80          | 1178.73   | +98.41   | +9.11    |
 
-So, just by changing the import syntax, the bundle size shrank 17.58% (361.35 KiB).
+So, just by changing the import syntax, the bundle size shrank 7.88% (145 KiB).
 
 I raised [a PR](https://github.com/tbo47/dagre-es/pull/7) in the `dagre-es` repo, and it was merged.
 
@@ -266,7 +266,7 @@ Alois did mention in [a comment](https://github.com/mermaid-js/mermaid/pull/3809
 + graphlibJson.write(graph);
 ```
 
-After making the above changes, we can see that the bundle size has gone down by 23.97% (492 KiB). `core` is still up by 2%, _not great, not terrible_.
+After making the above changes, we can see that the bundle size has gone down again by 8.4% (144 KiB). `core` is still up 2%, _not great, not terrible_.
 
 | Bundle     | Initial | `lodash-es` | `graphlib` | Change   | % Change |
 | ---------- | ------- | ----------- | ---------- | -------- | -------- |
