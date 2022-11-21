@@ -3,6 +3,9 @@ title: "Shrinking Mermaid >30%"
 date: 2022-11-20T12:19:15+05:30
 toc: false
 images:
+url: /posts/shrinking-mermaid
+aliases:
+  - /posts/mermaid/shrinking-mermaid
 tags:
   - mermaid
   - dependency
