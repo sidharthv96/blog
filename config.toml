@@ -59,7 +59,11 @@ googleAnalytics = "UA-169182193-1"
     name = "twitter"
     url = "https://twitter.com/sidv42"
 
-[[params.social]]
+  [[params.social]]
+    name = "mastodon"
+    url = "https://techhub.social/@sidv"
+
+  [[params.social]]
     name = "email"
     url = "mailto:hi@sidharth.dev"
 
