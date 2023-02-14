@@ -7,15 +7,23 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 # Professional Experience
 
-## TurgenSec | CTO (March '21 - Present)
+{{< experience company="MermaidChart" position="Founding Engineer" start="October '22" end="Present" url="https://www.mermaidchart.com">}}
+
+- Taking Mermaid beyond the live editor to a full fledged collaboration platform.
+- Backed by Sid Sijbrandij (Co-Founder and CEO of GitLab) via [Open Core Ventures](https://opencoreventures.com/)
+
+{{< experience company="TurgenSec" position="CTO" start="March '21" end="October '22" url="https://https://web.archive.org/web/20221027171949/https://www.turgensec.com/">}}
+
+[Acquired](https://web.archive.org/web/20221031205854/https://techround.co.uk/news/secretive-gchq-funded-company-turgensec-acquired/)
+[(Do not ask who bought us.)](https://web.archive.org/web/20221027171949/https://www.turgensec.com/)
 
 ### DataShadow
 
 - Building out an Offensive Privacy platform.
 
-## Oracle | Senior Applications Engineer (June '18 - March '21)
+{{< experience company="Oracle" position="Senior Applications Engineer" start="June '18" end="March '21" url="https://www.oracle.com/">}}
 
-#### Helios-Webhooks (January '19 - March '21)
+{{< experience company="Helios-Webhooks" small="true" start="January '19" end="March '21">}}
 
 {{< collapse summary="Lead developer of the service which facilitates to Integrate Webhooks functionality to any internal product with [CloudEvent](https://cloudevents.io/) spec" open="true" >}}
 
@@ -26,16 +34,16 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 {{< /collapse >}}
 
-#### Helios-Extensions (March '20 - March '21)
+{{< experience company="Helios-Extensions" small="true" start="March '20" end="March '21">}}
 
 {{< collapse summary="Allows customers to write custom code to act on system events using Webhooks and **Serverless** Platform (Oracle Fn)" >}}
 
-- Designed the **mutli tenancy architecture** which allows managing and running customer functions securely
+- Designed the **multi tenancy architecture** which allows managing and running customer functions securely
 - Created a **federated Docker registry proxy** service which allows customers to push containers with 0-config while managing access control and tenant data segregation.
 
 {{< /collapse >}}
 
-#### Helios-Vision (September '19 - March '21)
+{{< experience company="Helios-Vision" small="true" start="September '19" end="March '21">}}
 
 {{< collapse summary="Created a Typescript library to provide core functionality required to build a Microservice with Node.js" >}}
 
@@ -47,12 +55,12 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 {{< /collapse >}}
 
-#### [Element Manager](http://documentation.custhelp.com/euf/assets/devdocs/buiadmin/topicrefs/c_bui_Overview_Element_Manager.html) (June '18 - January '19)
+{{< experience company="Element Manager" small="true" start="June '18" end="January '19" url="http://documentation.custhelp.com/euf/assets/devdocs/buiadmin/topicrefs/c_bui_Overview_Element_Manager.html">}}
 
 {{< collapse summary="Product that supports Import/Export of Custom Elements like Reports, Workspaces, etc in Oracle Service Cloud" >}}
 
 - Redesigned the UI to improve UX
-- Created a **Generic Framework** to standardise Metadata management for multiple types of objects.
+- Created a **Generic Framework** to standardize Metadata management for multiple types of objects.
 - Developed a [Jenkins Pipeline](https://blogs.oracle.com/cx/this-is-why-customers-love-oracle-cx-service-element-manager-for-b2c) to automate exports and imports for different sites using Element Manager Public API
 
 {{< /collapse >}}
@@ -61,10 +69,11 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 I'm an avid open source advocate and have contributed in a small capacity to multiple projects.
 
-Maintainer of [Mermaid Live Editor](https://github.com/mermaid-js/mermaid-live-editor).
+Maintainer of [Mermaid JS](https://github.com/mermaid-js/mermaid) and [Mermaid Live Editor](https://github.com/mermaid-js/mermaid-live-editor).
 
 | Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                          | Stars&nbsp;&nbsp;&nbsp;&nbsp;                                                                | Description                                          |
 | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Mermaid JS](https://github.com/mermaid-js/mermaid/pulls?q=is%3Apr+author%3Asidharthv96+)        | ![GitHub stars](https://img.shields.io/github/stars/mermaid-js/mermaid?style=social&label)   | Markdown inspired diagrams for all                   |
 | [Prettier](https://github.com/prettier/prettier/pulls?q=is%3Apr+author%3Asidharthv96+)           | ![GitHub stars](https://img.shields.io/github/stars/prettier/prettier?style=social&label)    | An opinionated code formatter                        |
 | [Typescript](https://github.com/microsoft/TypeScript/pulls?q=is%3Apr+author%3Asidharthv96+)      | ![GitHub stars](https://img.shields.io/github/stars/microsoft/TypeScript?style=social&label) | TypeScript is a superset of JavaScript               |
 | [Svelte Kit](https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3Asidharthv96+)              | ![GitHub stars](https://img.shields.io/github/stars/sveltejs/kit?style=social&label)         | Cybernetically enhanced web apps                     |
@@ -75,12 +84,12 @@ Minor PRs in [Deno](https://github.com/denoland/deno/pulls?q=is%3Apr+author%3Asi
 
 # Tech
 
-- Languages : Java, TypeScript/JavaScript, Python
-- Backend : Spring, Express
-- UI : Vue, Svelte, JET
-- Testing : JUnit, Jest, K6
-- Services : Kafka, PostgreSQL, Vault, Swagger
-- Infrastructure : Docker, Kubernetes, Jenkins, Helm, Gitlab CI, OCI, AWS
+- Languages : TypeScript/JavaScript, Java, Python
+- Backend : SvelteKit, Express, Spring
+- UI : Svelte, Vue, JET
+- Testing : Vitest, Jest, K6, JUnit
+- Services : Kafka, PostgreSQL, Vault, Swagger, Supabase
+- Infra : Docker, Kubernetes, AWS, OCI, Helm, Github Actions, Gitlab CI, Jenkins
 - IoT : ESP32, Arduino, RC522 RFID
 
 # Education
@@ -131,7 +140,7 @@ Minor PRs in [Deno](https://github.com/denoland/deno/pulls?q=is%3Apr+author%3Asi
 
 Versioning of OSvC Object metadata into Object Storage in OCI (Cloud Native Managed Services) using a Webhooks Adapter MicroService.
 
-## Honourable Mention - Best Productivity, Oracle Service Cloud Hackathon, 2019
+## Honorable Mention - Best Productivity, Oracle Service Cloud Hackathon, 2019
 
 **Serverless Jenkins**
 

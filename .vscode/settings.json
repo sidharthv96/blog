@@ -1,8 +1,27 @@
 {
   "files.autoSave": "onFocusChange",
+  "cSpell.words": [
+    "Caprover",
+    "Deno",
+    "Fuelive",
+    "HMAC",
+    "Hackathon",
+    "Hackathons",
+    "Hyperconnect",
+    "IDCS",
+    "KEPA",
+    "OSINT",
+    "RFID",
+    "Sijbrandij",
+    "Strapi",
+    "Supabase",
+    "Thrissur",
+    "Treemap",
+    "dagre",
+    "graphlib"
+  ],
   "pasteImage.basePath": "${projectRoot}/static",
   "pasteImage.path": "${projectRoot}/static/images/mermaid",
   "pasteImage.prefix": "/",
-  "pasteImage.showFilePathConfirmInputBox": true,
-  "cSpell.words": ["dagre", "graphlib", "Treemap"]
+  "pasteImage.showFilePathConfirmInputBox": true
 }
