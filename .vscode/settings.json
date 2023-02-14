@@ -4,9 +4,9 @@
     "Caprover",
     "Deno",
     "Fuelive",
+    "HMAC",
     "Hackathon",
     "Hackathons",
-    "HMAC",
     "Hyperconnect",
     "IDCS",
     "KEPA",
@@ -15,6 +15,13 @@
     "Sijbrandij",
     "Strapi",
     "Supabase",
-    "Thrissur"
-  ]
+    "Thrissur",
+    "Treemap",
+    "dagre",
+    "graphlib"
+  ],
+  "pasteImage.basePath": "${projectRoot}/static",
+  "pasteImage.path": "${projectRoot}/static/images/mermaid",
+  "pasteImage.prefix": "/",
+  "pasteImage.showFilePathConfirmInputBox": true
 }

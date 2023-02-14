@@ -77,7 +77,14 @@ Check out the [Comprehensive Guide on Tax for Freelancers
 
 ## GST and LUT
 
-If you landed a juicy paycheck > 20L, you have to get a GST registration. Don't worry, Software and related services can be exported at 0% tax, so you don't have to pay any GST if a Letter of Undertaking is furnished. It should be submitted annually via the portal. [Simple form, few clicks, no hassle](https://cleartax.in/s/lut-letter-of-undertaking-gst).
+You need to get GST registration if:
+
+- Any part of Income is from Export of Services, ie Contractor working for company outside India ([Mandatory](https://www.e-startupindia.com/learn/gst-registration-mandatory-for-export-of-services-in-india/), ₹20L limit is not applicable).
+- Income in only from India, and is more than ₹20L (or ₹10L for [Special Category States](https://help.quicko.com/support/solutions/articles/84000350379-which-are-the-special-category-states-under-gst-))
+
+Don't worry, Software and related services can be exported at 0% tax, so you don't have to pay any GST if a Letter of Undertaking is furnished. It should be submitted annually via the portal. [Simple form, few clicks, no hassle](https://cleartax.in/s/lut-letter-of-undertaking-gst).
+
+Don't worry, Software and related services can be exported at 0% tax, so you don't have to pay any GST if a Letter of Undertaking is furnished. It should be submitted annually via the portal. [Simple form, few clicks, no hassle](https://cleartax.in/s/lut-letter-of-undertaking-gst).
 
 Just get registered via the [Official portal](https://gst.gov.in) and file the Monthly GST-1 and GST-3B Forms and annual return.
 
