@@ -1,3 +1,20 @@
 {
-  "files.autoSave": "onFocusChange"
+  "files.autoSave": "onFocusChange",
+  "cSpell.words": [
+    "Caprover",
+    "Deno",
+    "Fuelive",
+    "Hackathon",
+    "Hackathons",
+    "HMAC",
+    "Hyperconnect",
+    "IDCS",
+    "KEPA",
+    "OSINT",
+    "RFID",
+    "Sijbrandij",
+    "Strapi",
+    "Supabase",
+    "Thrissur"
+  ]
 }

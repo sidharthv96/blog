@@ -7,12 +7,15 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 # Professional Experience
 
-{{< experience company="MermaidCharts" position="Founding Engineer" start="October '22" end="Present" url="https://www.mermaidchart.com">}}
+{{< experience company="MermaidChart" position="Founding Engineer" start="October '22" end="Present" url="https://www.mermaidchart.com">}}
+
+- Taking Mermaid beyond the live editor to a full fledged collaboration platform.
+- Backed by Sid Sijbrandij (Co-Founder and CEO of GitLab) via [Open Core Ventures](https://opencoreventures.com/)
 
 {{< experience company="TurgenSec" position="CTO" start="March '21" end="October '22" url="https://https://web.archive.org/web/20221027171949/https://www.turgensec.com/">}}
 
-[Acquired](https://techround.co.uk/news/secretive-gchq-funded-company-turgensec-acquired/)
-(Do not ask who bought us.)
+[Acquired](https://web.archive.org/web/20221031205854/https://techround.co.uk/news/secretive-gchq-funded-company-turgensec-acquired/)
+[(Do not ask who bought us.)](https://web.archive.org/web/20221027171949/https://www.turgensec.com/)
 
 ### DataShadow
 
@@ -35,7 +38,7 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 {{< collapse summary="Allows customers to write custom code to act on system events using Webhooks and **Serverless** Platform (Oracle Fn)" >}}
 
-- Designed the **mutli tenancy architecture** which allows managing and running customer functions securely
+- Designed the **multi tenancy architecture** which allows managing and running customer functions securely
 - Created a **federated Docker registry proxy** service which allows customers to push containers with 0-config while managing access control and tenant data segregation.
 
 {{< /collapse >}}
@@ -57,7 +60,7 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 {{< collapse summary="Product that supports Import/Export of Custom Elements like Reports, Workspaces, etc in Oracle Service Cloud" >}}
 
 - Redesigned the UI to improve UX
-- Created a **Generic Framework** to standardise Metadata management for multiple types of objects.
+- Created a **Generic Framework** to standardize Metadata management for multiple types of objects.
 - Developed a [Jenkins Pipeline](https://blogs.oracle.com/cx/this-is-why-customers-love-oracle-cx-service-element-manager-for-b2c) to automate exports and imports for different sites using Element Manager Public API
 
 {{< /collapse >}}
@@ -66,10 +69,11 @@ To get in touch, drop a mail to [hi@sidharth.dev](mailto:hi@sidharth.dev)
 
 I'm an avid open source advocate and have contributed in a small capacity to multiple projects.
 
-Maintainer of [Mermaid Live Editor](https://github.com/mermaid-js/mermaid-live-editor).
+Maintainer of [Mermaid JS](https://github.com/mermaid-js/mermaid) and [Mermaid Live Editor](https://github.com/mermaid-js/mermaid-live-editor).
 
 | Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                          | Stars&nbsp;&nbsp;&nbsp;&nbsp;                                                                | Description                                          |
 | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Mermaid JS](https://github.com/mermaid-js/mermaid/pulls?q=is%3Apr+author%3Asidharthv96+)        | ![GitHub stars](https://img.shields.io/github/stars/mermaid-js/mermaid?style=social&label)   | Markdown inspired diagrams for all                   |
 | [Prettier](https://github.com/prettier/prettier/pulls?q=is%3Apr+author%3Asidharthv96+)           | ![GitHub stars](https://img.shields.io/github/stars/prettier/prettier?style=social&label)    | An opinionated code formatter                        |
 | [Typescript](https://github.com/microsoft/TypeScript/pulls?q=is%3Apr+author%3Asidharthv96+)      | ![GitHub stars](https://img.shields.io/github/stars/microsoft/TypeScript?style=social&label) | TypeScript is a superset of JavaScript               |
 | [Svelte Kit](https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3Asidharthv96+)              | ![GitHub stars](https://img.shields.io/github/stars/sveltejs/kit?style=social&label)         | Cybernetically enhanced web apps                     |
@@ -136,7 +140,7 @@ Minor PRs in [Deno](https://github.com/denoland/deno/pulls?q=is%3Apr+author%3Asi
 
 Versioning of OSvC Object metadata into Object Storage in OCI (Cloud Native Managed Services) using a Webhooks Adapter MicroService.
 
-## Honourable Mention - Best Productivity, Oracle Service Cloud Hackathon, 2019
+## Honorable Mention - Best Productivity, Oracle Service Cloud Hackathon, 2019
 
 **Serverless Jenkins**
 
