@@ -86,3 +86,8 @@ googleAnalytics = "UA-169182193-1"
     name = "Posts"
     url = "posts/"
     weight = 20
+
+  [[menu.main]]
+    name = "Sponsors"
+    url = "sponsors/"
+    weight = 30
